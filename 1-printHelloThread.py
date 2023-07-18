@@ -1,3 +1,5 @@
+# A pgm to create a thread which will print "hello world" on the screen 
+
 import threading 
 
 def uf():
@@ -9,6 +11,6 @@ def uf():
 
 if __name__ == "__main__":
 	threads=[] 
-	t= threading.Thread(target=uf) 
+	t= threading.Thread(target=uf)  # creates the thread 
 	threads.append(t) 
 	t.start() 
